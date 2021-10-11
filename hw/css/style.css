@@ -1,0 +1,280 @@
+/*сброс стандартных стилей*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.header {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 14px;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+h2:hover {
+    background: green;
+}
+
+.logo {
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu-item:hover {
+    cursor: alias;
+    border: 2px solid yellow;
+}
+
+.menu-item:hover {
+    background: SpringGreen;
+}
+
+.menu-item {
+}
+
+.menu-item a {
+    display: block;
+    color: #868686;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid green;
+
+
+}
+
+.menu-items:hover {
+    cursor: cell;
+    border: 2px solid yellow;
+}
+
+.personal-info:hover {
+    background: Lime;
+}
+
+.menu-item .active {
+    color: white;
+    background: orange;
+}
+
+.menu-item2 {
+
+    height: 200px;
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-info {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 30px;
+    align-items: center;
+    padding: 30px 0;
+}
+
+
+.menu2 {
+    width: 1200px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 20px;
+    align-items: center;
+    padding: 30px 50px;
+    display: flex;
+}
+
+.post-fone {
+
+    width: 1000px;
+    text-align: end;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 20px;
+    align-items: end;
+    padding: 40px 50px;
+    display: flex;
+}
+
+.menu-items {
+    border: 10px solid GhostWhite;
+    background: white;
+    padding: 30px 75px;
+
+}
+
+.menu-items:hover {
+    cursor: grab;
+}
+
+.menu-items:hover {
+    background: GreenYellow;
+    padding: 60px;
+}
+
+.post-color {
+    background: Cyan;
+}
+
+.post-fone:hover {
+    background: Yellow;
+}
+
+.heading-one {
+    height: 100px;
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 7px;
+}
+
+.heading-one:hover {
+
+    background: YellowGreen;
+}
+
+.heading-two {
+    padding: 3px;
+    text-align: center;
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+}
+
+* price {
+    box-sizing: border-box
+}
+
+/*старт прайс*/
+.price-items {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+}
+
+
+.price-items .price-item {
+    border: 1px;
+    margin: 20px;
+    width: 33.33333%;
+    text-align: center;
+}
+
+.price-items .price-item:hover {
+    background: RoyalBlue;
+    transition-duration: 2s;
+    padding: 25px;
+}
+
+.price-items .item-menu {
+    padding: 5px 10px;
+}
+
+.price-items .menu-price1 {
+    font-size: 35px;
+    padding: 20px 10px;
+	color: gray;
+	text-transform: uppercase;
+	
+}
+.price-items .menu-price2 {
+    color: DarkOrange;
+    font-size: 40px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.price-items .menu-price2 span {
+    font-size: 18px;
+	
+}
+
+.price-items .menu-price3 {
+    font-size: 15px;
+    padding: 1px 25px;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+ 
+ .price-items .menu-price4 {
+    font-size: 15px;
+    padding: 15px 10px;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+.price-items .menu-price5 {
+    font-size: 15px;
+    padding: 15px 10px;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+.price-items .menu-price6 {
+    font-size: 15px;
+    padding: 15px 10px;
+	color: gray;
+}
+
+.price-items .menu-price7 a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: DarkOrange;
+    color: #ffffff;
+    text-decoration: none;
+	
+}
+.price-items .menu-price7 a:hover {
+    background:OrangeRed;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    align-items: start;
+    background-color: orange;
+   
+}
+.menu-title {   
+   text-align: left;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    padding-left: 145px;
+    line-height: 0.5px;
+}
+
+.menu-description {
+    color: white;
+    padding: 50px 470px 50px 50px
+}
+
+   a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+a {
+    border: 2 solid grey;
+}
